@@ -1,0 +1,4 @@
+face_recognition
+numpy==1.23.5
+pandas==1.5.3
+opencv-python==4.8.0.76
