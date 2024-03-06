@@ -10,7 +10,6 @@ from recognition import FaceRecognition
 # exchanges of the output frames (useful when multiple browsers/tabs
 # are viewing the stream)
 outputFrame = None
-lock = threading.Lock()
 # initialize a flask object
 app = Flask(__name__)
 fr = FaceRecognition()
@@ -30,25 +29,17 @@ def raw():
 
 @app.route("/start")
 def start():
-    # grab global references to the video stream, output frame, and
-    # lock variables
-    global outputFrame, lock
-
-    # Start a thread that will perform motion detection
-    t = threading.Thread(target=fr.run_recognition)
-    t.daemon = True
-    t.start()
+    global outputFrame
 
     for frame in fr.run_recognition():
-        with lock:
-            outputFrame = frame.copy()
+        outputFrame = frame.copy()
 
     return redirect("/raw")
 
 
 def generate():
     # grab global references to the output frame and lock variables
-    global outputFrame, lock
+    global outputFrame
 
     while True:
         # check if the output frame is available, otherwise skip
@@ -75,4 +66,4 @@ if __name__ == '__main__':
 
         port : 80 (up to you)
     """
-    app.run(host="0.0.0.0", port=80, debug=True, threaded=True, use_reloader=False)
+    app.run(host="0.0.0.0", port=8000, debug=True, threaded=True, use_reloader=False)

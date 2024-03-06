@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f1d6db8-e86a-481a-8ed1-e97644232a22" name="Changes" comment="Sepearate into package and module">
-      <change afterPath="$PROJECT_DIR$/!production/asset/faces/dwayne-johnson.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/!production/asset/faces/mr-bean.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/!production/asset/faces/tom-cruise.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/!production/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/!production/recognition/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/!production/recognition/face_recognition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/!production/recognition/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/!production/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/!production/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/faces/erwin.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/!production/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/!production/Dockerfile" afterDir="false" />
+    <list default="true" id="9f1d6db8-e86a-481a-8ed1-e97644232a22" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/Face Attendance System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Face Attendance System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/faces/Erwin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/!production/asset/faces/erwin.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recognition/face_recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/recognition/face_recognition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +31,7 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2bKhg6QNTwc5y2fm2cYwDz0Dwqn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,7 +42,6 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/PycharmProjects/Face Attendance System/!production/package&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -67,12 +52,7 @@
   }
 }</component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\PycharmProjects\Face Attendance System\!production\package" />
-      <recent name="C:\Users\user\PycharmProjects\Face Attendance System\!production" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\PycharmProjects\Face Attendance System\!production" />
       <recent name="C:\Users\user\PycharmProjects\Face Attendance System\asset\faces" />
     </key>
   </component>
@@ -104,7 +84,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
       </set>
     </attachedChunks>
   </component>
@@ -119,10 +99,8 @@
       <workItem from="1705970131927" duration="6135000" />
       <workItem from="1706023169994" duration="28000" />
       <workItem from="1706200410481" duration="88000" />
-      <workItem from="1706397249298" duration="4726000" />
-      <workItem from="1706433774588" duration="13000" />
-      <workItem from="1706716161340" duration="4263000" />
-      <workItem from="1706759378518" duration="2967000" />
+      <workItem from="1706397249298" duration="1581000" />
+      <workItem from="1706839267068" duration="279000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -132,15 +110,7 @@
       <option name="project" value="LOCAL" />
       <updated>1705973022654</updated>
     </task>
-    <task id="LOCAL-00002" summary="Sepearate into package and module">
-      <option name="closed" value="true" />
-      <created>1706398929521</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1706398929521</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,8 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <MESSAGE value="Sepearate into package and module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sepearate into package and module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Face_Attendance_System$main.coverage" NAME="main Coverage Results" MODIFIED="1706398730711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
